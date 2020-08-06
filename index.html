@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="binary">
+    <meta name="keywords" content="plancrib">
+
+    <!-- Title Page-->
+    <title>PlanCrib Dashboard</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+
+        <!-- HEADER PC-->
+        <header class="header-desktop3 d-none d-lg-block">
+            <div class="section__content section__content--p35">
+                <div class="header3-wrap">
+                    <div class="header__logo">
+                        <a href="index.html">
+                            <img src="images/icon/logo-white" alt="PlanCrib" />
+                        </a>
+                    </div>
+                    <div class="header__navbar">
+                        <ul class="list-unstyled">
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt"></i>Dashboard
+                                    <span class="bot-line"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="dash_updatebio.html">
+                                    <i class="fas fa-clock" ></i>
+                                    <span class="bot-line"></span>Update Bio</a>
+                            </li>
+                            <li>
+                                <a href="dash_blogpost.html">
+                                    <i class="fas fa-book"></i>
+                                    <span class="bot-line"></span>Blogs</a>
+                            </li>
+                            <li class="has-sub">
+                                <a href="dash_contact.html">
+                                    <i class="fas fa-copy"></i>
+                                    <span class="bot-line"></span>Contact Us</a>
+                            </li>
+                            <li class="has-sub">
+                                <a href="#">
+                                    <i class="fas fa-desktop"></i>
+                                    <span class="bot-line"></span>Another Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__tool">
+                        <div class="header-button-item has-noti js-item-menu">
+                            <i class="zmdi zmdi-notifications"></i>
+                            <div class="notifi-dropdown notifi-dropdown--no-bor js-dropdown">
+                                <div class="notifi__title">
+                                    <p>You have 3 Notifications</p>
+                                </div>
+                                <div class="notifi__item">
+                                    <div class="bg-c1 img-cir img-40">
+                                        <i class="zmdi zmdi-email-open"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>You got a email notification</p>
+                                        <span class="date">April 12, 2018 06:50</span>
+                                    </div>
+                                </div>
+                                <div class="notifi__item">
+                                    <div class="bg-c2 img-cir img-40">
+                                        <i class="zmdi zmdi-account-box"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>Your account has been blocked</p>
+                                        <span class="date">April 12, 2018 06:50</span>
+                                    </div>
+                                </div>
+                                <div class="notifi__item">
+                                    <div class="bg-c3 img-cir img-40">
+                                        <i class="zmdi zmdi-file-text"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>You got a new file</p>
+                                        <span class="date">April 12, 2018 06:50</span>
+                                    </div>
+                                </div>
+                                <div class="notifi__footer">
+                                    <a href="#">All notifications</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div> &nbsp; &nbsp; &nbsp;</div>
+                        <div class="account-wrap">
+                            <div class="account-item account-item--style2 clearfix js-item-menu">
+                                <div class="image">
+                                    <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                </div>
+                                <div class="content">
+                                    <a class="js-acc-btn" href="#">john doe</a>
+                                </div>
+                                <div class="account-dropdown js-dropdown">
+                                    <div class="info clearfix">
+                                        <div class="image">
+                                            <a href="#">
+                                                <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                            </a>
+                                        </div>
+                                        <div class="content">
+                                            <h5 class="name">
+                                                <a href="#">john doe</a>
+                                            </h5>
+                                            <span class="email">johndoe@example.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="account-dropdown__body">
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-account"></i>Account</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-settings"></i>Setting</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                        </div>
+                                    </div>
+                                    <div class="account-dropdown__footer">
+                                        <a href="#">
+                                            <i class="zmdi zmdi-power"></i>Logout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- END HEADER DESKTOP-->
+
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile header-mobile-2 d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/icon/logo-white." alt="PlanCrib" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="chart.html">
+                                <i class="fas fa-chart-bar"></i>Charts</a>
+                        </li>
+                        <li>
+                            <a href="table.html">
+                                <i class="fas fa-table"></i>Tables</a>
+                        </li>
+                        <li>
+                            <a href="form.html">
+                                <i class="far fa-check-square"></i>Forms</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Pages</a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>UI Elements</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="sub-header-mobile-2 d-block d-lg-none">
+            <div class="header__tool">
+                <div class="header-button-item has-noti js-item-menu">
+                    <i class="zmdi zmdi-notifications"></i>
+                    <div class="notifi-dropdown notifi-dropdown--no-bor js-dropdown">
+                        <div class="notifi__title">
+                            <p>You have 3 Notifications</p>
+                        </div>
+                        <div class="notifi__item">
+                            <div class="bg-c1 img-cir img-40">
+                                <i class="zmdi zmdi-email-open"></i>
+                            </div>
+                            <div class="content">
+                                <p>You got a email notification</p>
+                                <span class="date">April 12, 2018 06:50</span>
+                            </div>
+                        </div>
+                        <div class="notifi__item">
+                            <div class="bg-c2 img-cir img-40">
+                                <i class="zmdi zmdi-account-box"></i>
+                            </div>
+                            <div class="content">
+                                <p>Your account has been blocked</p>
+                                <span class="date">April 12, 2018 06:50</span>
+                            </div>
+                        </div>
+                        <div class="notifi__item">
+                            <div class="bg-c3 img-cir img-40">
+                                <i class="zmdi zmdi-file-text"></i>
+                            </div>
+                            <div class="content">
+                                <p>You got a new file</p>
+                                <span class="date">April 12, 2018 06:50</span>
+                            </div>
+                        </div>
+                        <div class="notifi__footer">
+                            <a href="#">All notifications</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="account-wrap">
+                    <div class="account-item account-item--style2 clearfix js-item-menu">
+                        <div class="image">
+                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                        </div>
+                        <div class="content">
+                            <a class="js-acc-btn" href="#">john doe</a>
+                        </div>
+                        <div class="account-dropdown js-dropdown">
+                            <div class="info clearfix">
+                                <div class="image">
+                                    <a href="#">
+                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h5 class="name">
+                                        <a href="#">john doe</a>
+                                    </h5>
+                                    <span class="email">johndoe@example.com</span>
+                                </div>
+                            </div>
+                            <div class="account-dropdown__body">
+                                <div class="account-dropdown__item">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-account"></i>Account</a>
+                                </div>
+                                <div class="account-dropdown__item">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-settings"></i>Setting</a>
+                                </div>
+                                <div class="account-dropdown__item">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                </div>
+                            </div>
+                            <div class="account-dropdown__footer">
+                                <a href="#">
+                                    <i class="zmdi zmdi-power"></i>Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END HEADER MOBILE -->
+
+<!-- PAGE CONTENT-->
+<div class="page-content--bgf7">
+    <!-- BREADCRUMB-->
+    <section class="au-breadcrumb2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="au-breadcrumb-content">
+                        <div class="au-breadcrumb-left">
+                            <span class="au-breadcrumb-span">You are here:</span>
+                            <ul class="list-unstyled list-inline au-breadcrumb__list">
+                                <li class="list-inline-item active">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="list-inline-item seprate">
+                                    <span>/</span>
+                                </li>
+                                <li class="list-inline-item">Dashboard</li>
+                            </ul>
+                        </div>
+                        <form class="au-form-icon--sm" action="" method="post">
+                            <input class="au-input--w300 au-input--style2" type="text" placeholder="Search for datas &amp; reports...">
+                            <button class="au-btn--submit2" type="submit">
+                                <i class="zmdi zmdi-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END BREADCRUMB-->
+
+    <!-- WELCOME-->
+    <section class="welcome p-t-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1 class="title-4">Welcome back
+                        <span>John!</span>
+                    </h1>
+                </div>
+                <div class="col-md-3">
+                    <button class="au-btn au-btn-icon au-btn--blue" data-toggle="modal" data-target="#addProductModal">
+                            <i class="zmdi zmdi-plus"></i>add product</button>
+                </div>
+                <hr class="line-seprate">
+            </div>
+        </div>
+    </section>
+    <!-- END WELCOME-->
+
+    <!-- STATISTIC-->
+    <section class="statistic statistic2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="statistic__item statistic__item--green">
+                        <h2 class="number">10,368</h2>
+                        <span class="desc">members online</span>
+                        <div class="icon">
+                            <i class="zmdi zmdi-account-o"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="statistic__item statistic__item--orange">
+                        <h2 class="number">388,688</h2>
+                        <span class="desc">items sold</span>
+                        <div class="icon">
+                            <i class="zmdi zmdi-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="statistic__item statistic__item--blue">
+                        <h2 class="number">1,086</h2>
+                        <span class="desc">this week</span>
+                        <div class="icon">
+                            <i class="zmdi zmdi-calendar-note"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="statistic__item statistic__item--red">
+                        <h2 class="number">$1,060,386</h2>
+                        <span class="desc">total earnings</span>
+                        <div class="icon">
+                            <i class="zmdi zmdi-money"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END STATISTIC-->
+
+    <!-- product table here -->
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            <h2 class="title-1 m-b-25">Product List</h2>
+            <div class="table-responsive table--no-card m-b-40">
+                <table class="table table-borderless table-striped table-earning">
+                    <thead>
+                        <tr>
+                            <!-- <th>date</th> -->
+                            <th>order ID</th>
+                            <th>name</th>
+                            <th class="text-right">price</th>
+                            <th class="text-right">quantity</th>
+                            <th class="text-right">total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- <td>2018-09-29 05:57</td> -->
+                            <td>100398</td>
+                            <td>iPhone X 64Gb Grey</td>
+                            <td class="text-right">$999.00</td>
+                            <td class="text-right">1</td>
+                            <td class="text-right">$999.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-28 01:22</td> -->
+                            <td>100397</td>
+                            <td>Samsung S8 Black</td>
+                            <td class="text-right">$756.00</td>
+                            <td class="text-right">1</td>
+                            <td class="text-right">$756.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-27 02:12</td> -->
+                            <td>100396</td>
+                            <td>Game Console Controller</td>
+                            <td class="text-right">$22.00</td>
+                            <td class="text-right">2</td>
+                            <td class="text-right">$44.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-26 23:06</td> -->
+                            <td>100395</td>
+                            <td>iPhone X 256Gb Black</td>
+                            <td class="text-right">$1199.00</td>
+                            <td class="text-right">1</td>
+                            <td class="text-right">$1199.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-25 19:03</td> -->
+                            <td>100393</td>
+                            <td>USB 3.0 Cable</td>
+                            <td class="text-right">$10.00</td>
+                            <td class="text-right">3</td>
+                            <td class="text-right">$30.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-29 05:57</td> -->
+                            <td>100392</td>
+                            <td>Smartwatch 4.0 LTE Wifi</td>
+                            <td class="text-right">$199.00</td>
+                            <td class="text-right">6</td>
+                            <td class="text-right">$1494.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-24 19:10</td> -->
+                            <td>100391</td>
+                            <td>Camera C430W 4k</td>
+                            <td class="text-right">$699.00</td>
+                            <td class="text-right">1</td>
+                            <td class="text-right">$699.00</td>
+                        </tr>
+                        <tr>
+                            <!-- <td>2018-09-22 00:43</td> -->
+                            <td>100393</td>
+                            <td>USB 3.0 Cable</td>
+                            <td class="text-right">$10.00</td>
+                            <td class="text-right">3</td>
+                            <td class="text-right">$30.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <h2 class="title-1 m-b-25">Top Products</h2>
+            <div class="au-card au-card--bg-blue au-card-top-countries m-b-40">
+                <div class="au-card-inner">
+                    <div class="table-responsive">
+                        <table class="table table-top-countries">
+                            <tbody>
+                                <tr>
+                                    <td>iPhone 6</td>
+                                    <td class="text-right">$119,366.96</td>
+                                </tr>
+                                <tr>
+                                    <td>Canon Camera</td>
+                                    <td class="text-right">$70,261.65</td>
+                                </tr>
+                                <tr>
+                                    <td>USB 3.0 Cable</td>
+                                    <td class="text-right">$46,399.22</td>
+                                </tr>
+                                <tr>
+                                    <td>iPhone X 256Gb</td>
+                                    <td class="text-right">$35,364.90</td>
+                                </tr>
+                                <tr>
+                                    <td>Samsung S8</td>
+                                    <td class="text-right">$20,366.96</td>
+                                </tr>
+                                <tr>
+                                    <td>Samsung S9</td>
+                                    <td class="text-right">$10,366.96</td>
+                                </tr>
+                                <tr>
+                                    <td>Hp G45 Laptop</td>
+                                    <td class="text-right">$5,366.96</td>
+                                </tr>
+                                <tr>
+                                    <td>Hp ProBook</td>
+                                    <td class="text-right">$1639.32</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- product table ends here -->
+
+     <!-- COPYRIGHT-->
+     <section class="p-t-60 p-b-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        <p>Copyright © 2018 PlanCrib. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END COPYRIGHT-->
+    </div>
+    </div>
+
+
+<!-- modal scroll -->
+<div class="modal fade" id="addProductModal" tabindex="-1" role="dialog" aria-labelledby="addProductLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addProductModal">Add Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- form starts here -->
+        <div class="container">
+            <div class="login-logo">
+                <a href="#">
+                    <img src="../images/icon/logo.png" alt="plancrib">
+                </a>
+            </div>
+                    <div class="login-form">
+                        <form action="" method="post">
+                            <div class="form-group">
+                                <label>Product Name</label>
+                                <input class="au-input au-input--full" type="text" name="productName" placeholder="Product Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Product Info</label>
+                                <input class="au-input au-input--full" type="text" name="productInfo" placeholder="Product Info">
+                            </div>
+                            <div class="form-group">
+                                <label>Price</label>
+                                <input class="au-input au-input--full" type="number" name="username" placeholder="Price of the product in Naira">
+                            </div>
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input class="au-input au-input--full" type="text" name="username" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="selectSm" class=" form-control-label">Select Category</label>
+                                    <select name="selectSm" id="SelectLm" class="au-input au-input--full">
+                                        <option value="0">Please select</option>
+                                        <option value="1">Option #1</option>
+                                        <option value="2">Option #2</option>
+                                        <option value="3">Option #3</option>
+                                        <option value="4">Option #4</option>
+                                        <option value="5">Option #5</option>
+                                    </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="file-multiple-input" class="">File input</label>
+                                <input type="file" id="file-multiple-input" name="file-multiple-input" multiple="" class="form-control-file">
+                        <small class="help-block form-text">Please attach less than 4 files</small>
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
+                            </div>
+                            <div class="login-checkbox">
+                                <label>
+                                    <input type="checkbox" name="aggree">Agree the terms and policy
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+        </div>
+        <!-- form ends here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Add Product</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end modal scroll -->
+
+
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+
+    <script src="vendor/animsition/animsition.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->
